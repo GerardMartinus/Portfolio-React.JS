@@ -1,0 +1,38 @@
+.Frontend-Section{
+    position: relative;
+    display: flex;
+
+    justify-content:space-around;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+.Frontend-Section p{
+    color: #9F9F9F;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .Frontend-Section{
+        flex-direction: column;
+    }
+
+    .images img{
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+    }
+
+    .Frontend-Section h2{
+        font-size: 2rem;
+    }
+    
+    .Frontend-Section h3{
+        font-size: 1.5rem;
+    }
+    
+    .Frontend-Section p{
+        font-size: 1rem;
+    }
+}
